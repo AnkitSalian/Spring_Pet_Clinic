@@ -1,4 +1,4 @@
-package com.ankit.petclinic.model;
+package com.ankit.sfgpetclinic.model;
 
 public class PetType {
     private String name;

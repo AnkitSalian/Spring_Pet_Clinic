@@ -1,4 +1,4 @@
-package com.ankit.petclinic.model;
+package com.ankit.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
