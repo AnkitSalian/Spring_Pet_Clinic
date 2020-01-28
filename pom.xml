@@ -40,7 +40,7 @@
 
     <scm>
         <developerConnection>scm:git:git@github.com:AnkitSalian/Spring_Pet_Clinic.git</developerConnection>
-      <tag>HEAD</tag>
+        <tag>HEAD</tag>
   </scm>
 
 </project>
