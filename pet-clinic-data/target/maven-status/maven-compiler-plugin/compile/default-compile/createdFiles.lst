@@ -1,0 +1,5 @@
+com\ankit\sfgpetclinic\model\Owner.class
+com\ankit\sfgpetclinic\model\PetType.class
+com\ankit\sfgpetclinic\model\Person.class
+com\ankit\sfgpetclinic\model\Pet.class
+com\ankit\sfgpetclinic\model\Vet.class
