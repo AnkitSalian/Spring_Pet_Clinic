@@ -3,9 +3,11 @@ package com.ankit.sfgpetclinic.services.map;
 import com.ankit.sfgpetclinic.model.Owner;
 import com.ankit.sfgpetclinic.services.CrudService;
 import com.ankit.sfgpetclinic.services.OwnerService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class OwnerServiceMap extends AbstractMapService<Owner, Long> implements OwnerService {
     @Override
     public Set<Owner> findAll() {
