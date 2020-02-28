@@ -2,10 +2,11 @@ package com.ankit.sfgpetclinic.services.map;
 
 import com.ankit.sfgpetclinic.model.Pet;
 import com.ankit.sfgpetclinic.services.CrudService;
+import com.ankit.sfgpetclinic.services.PetService;
 
 import java.util.Set;
 
-public class PetServiceMap extends AbstractMapService<Pet, Long> implements CrudService<Pet, Long> {
+public class PetServiceMap extends AbstractMapService<Pet, Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
         return super.findAll();
