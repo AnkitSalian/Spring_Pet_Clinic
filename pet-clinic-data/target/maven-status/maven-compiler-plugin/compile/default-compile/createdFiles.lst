@@ -1,5 +1,14 @@
+com\ankit\sfgpetclinic\services\PetService.class
+com\ankit\sfgpetclinic\model\Vet.class
 com\ankit\sfgpetclinic\model\Owner.class
 com\ankit\sfgpetclinic\model\PetType.class
+com\ankit\sfgpetclinic\services\map\PetServiceMap.class
+com\ankit\sfgpetclinic\services\map\OwnerServiceMap.class
+com\ankit\sfgpetclinic\services\VetService.class
 com\ankit\sfgpetclinic\model\Person.class
+com\ankit\sfgpetclinic\services\map\VetServiceMap.class
 com\ankit\sfgpetclinic\model\Pet.class
-com\ankit\sfgpetclinic\model\Vet.class
+com\ankit\sfgpetclinic\model\BaseEntity.class
+com\ankit\sfgpetclinic\services\map\AbstractMapService.class
+com\ankit\sfgpetclinic\services\OwnerService.class
+com\ankit\sfgpetclinic\services\CrudService.class

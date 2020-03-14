@@ -1,1 +1,5 @@
+com\ankit\sfgpetclinic\controller\OwnerController.class
+com\ankit\sfgpetclinic\controller\IndexController.class
 com\ankit\sfgpetclinic\PetClinicApplication.class
+com\ankit\sfgpetclinic\controller\VetCotroller.class
+com\ankit\sfgpetclinic\bootstrap\DataLoader.class
