@@ -1,1 +1,12 @@
 com\ankit\sfgpetclinic\services\springdatajpa\OwnerSDJpaServiceTest.class
+com\ankit\sfgpetclinic\services\map\VisitMapServiceTest.class
+com\ankit\sfgpetclinic\services\map\OwnerMapServiceTest.class
+com\ankit\sfgpetclinic\services\map\PetMapServiceTest.class
+com\ankit\sfgpetclinic\services\map\SpecialityMapServiceTest.class
+com\ankit\sfgpetclinic\services\springdatajpa\VetSDJpaServiceTest.class
+com\ankit\sfgpetclinic\services\springdatajpa\VisitSDJpaServiceTest.class
+com\ankit\sfgpetclinic\services\map\VetMapServiceTest.class
+com\ankit\sfgpetclinic\services\springdatajpa\PetTypeSDJpaServiceTest.class
+com\ankit\sfgpetclinic\services\map\PetTypeMapServiceTest.class
+com\ankit\sfgpetclinic\services\springdatajpa\SpecialitySDJpaServiceTest.class
+com\ankit\sfgpetclinic\services\springdatajpa\PetSDJpaServiceTest.class

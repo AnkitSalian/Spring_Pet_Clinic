@@ -1,1 +1,4 @@
 com\ankit\sfgpetclinic\PetClinicApplicationTests.class
+com\ankit\sfgpetclinic\controller\OwnerControllerTest.class
+com\ankit\sfgpetclinic\controller\VetCotrollerTest.class
+com\ankit\sfgpetclinic\controller\IndexControllerTest.class
