@@ -82,7 +82,7 @@ class OwnerControllerTest {
 
         mockMvc.perform(MockMvcRequestBuilders.get("/owners"))
                 .andExpect(MockMvcResultMatchers.status().isOk())
-                .andExpect(MockMvcResultMatchers.view().name("owners/ownerList"))
+                .andExpect(MockMvcResultMatchers.view().name("owners/ownersList"))
                 .andExpect(MockMvcResultMatchers.model().attribute("selections", Matchers.hasSize(2)));
     }
 
@@ -94,6 +94,18 @@ class OwnerControllerTest {
         mockMvc.perform(MockMvcRequestBuilders.get("/owners"))
                 .andExpect(MockMvcResultMatchers.status().is3xxRedirection())
                 .andExpect(MockMvcResultMatchers.view().name("redirect:/owners/1"));
+    }
+
+    @Test
+    void processFindOwnerForBlankValue() throws Exception {
+        Mockito.when(ownerService.findAllByLastNameLike(ArgumentMatchers.anyString()))
+                .thenReturn(Arrays.asList(Owner.builder().id(1L).lastName("Watson").build(),
+                        Owner.builder().id(2L).lastName("Newton").build()));
+
+        mockMvc.perform(MockMvcRequestBuilders.get("/owners"))
+                .andExpect(MockMvcResultMatchers.status().isOk())
+                .andExpect(MockMvcResultMatchers.view().name("owners/ownersList"))
+                .andExpect(MockMvcResultMatchers.model().attribute("selections", Matchers.hasSize(2)));
     }
 
     @Test
