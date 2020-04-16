@@ -82,7 +82,7 @@ class OwnerControllerTest {
                 .thenReturn(Arrays.asList(Owner.builder().id(1L).lastName("Watson").build(),
                         Owner.builder().id(2L).lastName("Newton").build()));
 
-        mockMvc.perform(MockMvcRequestBuilders.get("/owners"))
+        mockMvc.perform(MockMvcRequestBuilders.get("/owners").param("lastName", ""))
                 .andExpect(MockMvcResultMatchers.status().isOk())
                 .andExpect(MockMvcResultMatchers.view().name("owners/ownersList"))
                 .andExpect(MockMvcResultMatchers.model().attribute("selections", Matchers.hasSize(2)));
