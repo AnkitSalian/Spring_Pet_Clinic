@@ -25,9 +25,6 @@ jobs: # a collection of steps
 
       - run: mvn integration-test cobertura:cobertura # run the actual tests
 
-      - store test results:
-          path: target/surefire-reports
-
       - run:
           name: Send to CodCov
           command: bash <(curl -s https://codcov.io/bash)
