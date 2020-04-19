@@ -3,6 +3,7 @@ com\ankit\sfgpetclinic\controller\VisitController.class
 com\ankit\sfgpetclinic\controller\PetController.class
 com\ankit\sfgpetclinic\controller\IndexController.class
 com\ankit\sfgpetclinic\PetClinicApplication.class
+com\ankit\sfgpetclinic\controller\VisitController$1.class
 com\ankit\sfgpetclinic\controller\VetCotroller.class
 com\ankit\sfgpetclinic\bootstrap\DataLoader.class
 com\ankit\sfgpetclinic\formatters\PetTypeFormatter.class
