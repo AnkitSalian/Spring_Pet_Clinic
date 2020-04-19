@@ -23,7 +23,7 @@ jobs: # a collection of steps
             - ~/.m2
           key: circleci-demo-java-spring-{{ checksum "pom.xml" }}
 
-      - run: mvn integration-test cobertura:cobertura # run the actual tests
+      - run: mvn integration-test  # run the actual tests
 #      - run:  cobertura:cobertura
       - store_test_results:
           path: target/surefire-reports
